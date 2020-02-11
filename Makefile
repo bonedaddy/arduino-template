@@ -16,3 +16,11 @@ compile-sketch:
 .PHONY: upload-sketch
 upload-sketch:
 	arduino-cli upload -p $(PORT) --fqbn $(BOARD) src
+
+.PHONY: list-boards
+list-boards:
+	arduino-cli board list
+
+.PHONY: update-index
+update-index:
+	arduino-cli core update-index
