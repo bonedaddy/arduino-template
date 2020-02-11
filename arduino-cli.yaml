@@ -1,0 +1,12 @@
+board_manager:
+  additional_urls: []
+daemon:
+  port: "50051"
+directories:
+  data: /home/solidity/.arduino15
+  downloads: /home/solidity/.arduino15/staging
+  user: /home/solidity/Arduino
+logging:
+  file: ""
+  format: text
+  level: info
