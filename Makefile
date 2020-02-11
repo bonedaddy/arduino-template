@@ -24,3 +24,7 @@ list-boards:
 .PHONY: update-index
 update-index:
 	arduino-cli core update-index
+
+.PHONY: install-libs
+install-libs:
+	arduino-cli lib install ArduinoUni
